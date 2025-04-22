@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="" content="IE-edge">
+        <meta name="viewport" content="width=device-width , initial-scale-1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/83f067b54e.js" crossorigin="anonymous"></script>
+    </head>
+    <body id="ph">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#specialized-in">Specialized-In</a></li>
+                    <li><a href="#portfolio">Gallery</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="Header-text">
+                <p>
+                    UI/UX Dsigner </p>
+                    <h1>HI,i am <span> Santo Xavier </span> <br> and i am a Passionate </h1>
+                    <h1><span id="element"></span></h1>
+            </div>
+        </div>
+    </div>
+ <!-- ------------------About---------------- -->
+        <div id="about">   
+           <div class="container">
+                <div class ="row">
+                    <div class="about-col-1">
+                         <img src="WhatsApp Image 2025-04-20 at 20.29.28_bac363765.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="Subtitle">About Me</h1>
+                        <p>I'm a passionate web and app developer with a creative edge. Beyond coding, I enjoy drawing, solving Rubik’s cubes, and bringing ideas to life through video editing. A football enthusiast at heart, I thrive on challenges—whether on the field or at my desk. Currently focused on sharpening my skills and learning as much as I can, my goal is to study hard and land a great job where I can grow and make an impact.</p>
+                        
+                        <div class="tab-titles">
+                            <p class="tab-links activ-link" onclick="opentab('personal-interest')">Interests</p>
+                             <p class="tab-links" onclick="opentab('hobby')">Hobby</p>
+                            <p class="tab-links"  onclick="opentab('achievements')">Education </p>
+                        </div>
+                        <div class="tab-contents active-tab" id="personal-interest">
+                            <ul>
+                                <li><span>UI/UX</span><br> Designinig WEb/App Interface </li>
+                                <li><span>PROGRAMM.LANGUAGES</span><br> I love to learn diiferent languages like java etc </li>
+                                <li><span>VIDEO EDITOR</span><br> At free time i use to see different tecniques to edit videos </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="hobby">
+                            <ul>
+                                <li><span>FOOTBALL</span><br> I my self am a football enthusiast</li>
+                                <li><span>RUBIKS CUBE</span><br> I love to solve rubix cube of different varities  </li>
+                                <li><span>COOKING</span><br> I love to cook different desserts. </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="achievements">
+                            <ul>
+                                <li><span>2011 - 2022</span><br> Holy family Convent High School </li>
+                                <li><span>2022 - 2024</span><br> Thomas Baptista Junior College </li>
+                                <li><span>2024 - till present</span><br> Studying Computer engineering in <br>Fr.Conceicao Rodrigues College of<br> Engineering </li>
+                            </ul>
+                    </div>
+                </div>
+           </div>
+        </div>
+ <!-- ------------------ specialized-in---------------- -->        
+        <div id="specialized-in">
+            <div class="container">
+                <h1 class="Subtitle">Specialized In</h1> 
+                <div class="specialized-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>I'm a budding web developer with a solid grasp of the basics and a passion for learning. While I'm still early in my journey, I've had the opportunity to contribute to team projects where my web development skills made a real difference. I enjoy collaborating, solving problems, and constantly improving as I grow in this field. </p>
+                        <a href="">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>App Development</h2>
+                        <p>I'm an early-stage app developer with hands-on experience using Flutter and Firebase, which I picked up while building an app for a hackathon. That project helped me understand how to create functional mobile apps, set up backend services, and implement features like authentication. I'm still learning, but I enjoy diving into real-world challenges and contributing wherever I can. </p>
+                        <a href="">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>I'm a beginner UI/UX designer with a growing interest in creating intuitive and user-friendly designs. I've worked with Figma to support interface design on team projects, helping shape layouts and user flows. While I haven't led my own design project yet, I’ve contributed meaningfully in collaborative settings and am eager to keep learning and improving my skills.</p>
+                        <a href="">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- ------------------ portfolio---------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="Subtitle">Gallery</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Screenshot 2025-04-22 174157.png">
+                    <div class="layer">
+                        <H3>Cultural place finder</H3>
+                        <p>This was a project . it was made for tourists so that they can search different cultural places . </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="OIP.jpg">
+                    <div class="layer">
+                        <H3>social Media App</H3>
+                        <p>.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ------------------ contact---------------- -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="Subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> santoxavier5948@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9970565948</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/santosavioxavier/#https://www.instagram.com/santosavioxavier/#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.threads.net/@santosavioxavier?xmt=AQGze9fYFVbt-CQZ9WVtuceSeudXqTM-hKI46F_exDOIq3w"><i class="fa-brands fa-threads"></i></a>
+                        <a href="https://www.linkedin.com/in/santo-xavier-409971360/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Ba41rEvyiSX2D80Bbauk4DA%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Professional CV Resume (1).pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Santo. All rights reserved</p>
+        </div>
+     </div>
+           <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("activ-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("activ-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+
+           </script>
+           <script>
+            var sidemenu = document.getElementById("sidemenu")
+            function openmenu(){
+                sidemenu.style.right = "0"
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px"
+            }
+           </script>
+           <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyCqciClMK-ueTYkCUbSqh7pN92h_e7TFOAwUdtX37BNI5x_-qK0GnkvenDCood256k/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+          <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+          <script>
+            var typed = new Typed('#element', {
+              strings: ['Web Developer', 'UI Designer','Video Editor'],
+              typeSpeed: 50,
+            });
+          </script>
+    </body>
+</html>
